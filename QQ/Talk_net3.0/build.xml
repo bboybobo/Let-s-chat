@@ -1,0 +1,34 @@
+<project name="net_struts">
+	<property name="projectName" value="net_struts" />
+	<property name="projectVersion" value="3.0.0.6" />
+
+	<property name="run_origin.jar" value="${projectName}${projectVersion}.jar" />
+
+	<property name="src.dir" location="src" />
+		<property name="bin.dir" location="bin" />
+		<property name="lib.dir" location="lib" />
+
+		
+	<target name="compile" description="编译项目">
+		<path id="complie.classpath">
+			<fileset dir="${lib.dir}">
+				<include name="**/*.jar" />
+			</fileset>
+		</path>
+		<javac srcdir="${src.dir}" destdir="${bin.dir}" deprecation="true">
+			<classpath refid="complie.classpath" />
+			<compilerarg line="-encoding UTF-8" />
+		</javac>
+	</target>
+
+	<target name="jar-origin" description="原始Jar">
+		<jar destfile="./${run_origin.jar}" basedir="${bin.dir}" filesetmanifest="mergewithoutmain">
+			<manifest>
+				<attribute name="Built-By" value="spasvo" />
+				<attribute name="Class-Path" value="." />
+				</manifest>
+			 <zipfileset excludes="META-INF/*.SF" src="${lib.dir}/dom4j-1.6.1.jar"/>
+		</jar>
+	</target>
+				
+	</project>

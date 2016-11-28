@@ -1,0 +1,6 @@
+#Blood
+blood_1=A
+blood_2=B
+blood_3=AB
+blood_4=O
+blood_5=Other

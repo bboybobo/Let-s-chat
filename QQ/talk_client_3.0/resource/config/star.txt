@@ -1,0 +1,13 @@
+#star
+star_1=Aquarius
+star_2=Pisces
+star_3=Aries
+star_4=Taurus
+star_5=Gemini
+star_6=Cancer
+star_7=Leo
+star_8=Virgo
+star_9=Libra
+star_10=Scorpio
+star_11=Sagittarius
+star_12=Capricornus

@@ -1,0 +1,6 @@
+create table customer ( 
+	  account varchar(20),
+	  password varchar(20), 
+	  avatar varchar(30),
+	  sign varchar(50) 
+);

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_51" class="java.beans.XMLDecoder">
+ <object class="talk.alvin.bean.SimpleUser">
+  <void property="faceId">
+   <string>1</string>
+  </void>
+  <void property="id">
+   <string>10020</string>
+  </void>
+  <void property="name">
+   <string>bboybobo</string>
+  </void>
+ </object>
+</java>

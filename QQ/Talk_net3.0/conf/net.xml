@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Server>
+	<!-- 服务器IP -->
+	<Address>localhost</Address>
+	<!-- 服务器端口号 -->
+	<Port>6868</Port>
+	<!-- 最大访问人数 -->
+	<Person>10</Person>
+	<!-- 服务线程数量 -->
+	<ThreadPool-Num>3</ThreadPool-Num>
+</Server>
